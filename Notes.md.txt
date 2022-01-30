@@ -1,0 +1,3 @@
+feed.xml is for publication feeds with RSS?
+did not put the about.css from static into mine
+posts should go into posts folder as a .md file
