@@ -1,3 +1,15 @@
 feed.xml is for publication feeds with RSS?
 did not put the about.css from static into mine
 posts should go into posts folder as a .md file
+
+## Animations
+Also see the [embedded age calculator](https://www.michaelsyao.com/) at the bottom when inspecting element.
+
+## Cool HTML Tricks 
+[Hover Highlight](https://www.w3schools.com/cssref/sel_hover.asp)
+I tried [Pop-Up Definitions](https://stackoverflow.com/questions/54471202/how-to-display-a-definition-on-hover-over-a-word-that-is-in-a-sentence)
+ but that did not work. May be try [this](https://community.canvaslms.com/t5/Canvas-Question-Forum/How-do-I-add-a-quot-hover-over-for-definition-quot/m-p/90655)
+
+## Cool Stickers/Icons
+There are a ton of CSS icons in [this repository](https://github.com/hanami/docs/blob/main/src/scss/custom/icons.scss)
+Also check out [Iconify](https://icon-sets.iconify.design/icomoon-free/spotify/)
