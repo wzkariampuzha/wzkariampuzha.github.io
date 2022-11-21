@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+p {
+    color: orange;
+    margin:3px;
+}
+h2 {
+    color: blueviolet;
+    border: 3px dotted aquamarine;
+    padding: 15px;
+}
+a:hover {
+    color: yellow;
+    text-transform: ;
+    text-decoration: italic;
+
+}
+
+img {
+    border: 3px solid red;
+    #border-top-left-radius: 50%;
+    padding: 10px;
+    width: 150%
+    height: 150%;
+}
