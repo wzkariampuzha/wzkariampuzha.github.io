@@ -10,14 +10,32 @@
     <link rel="stylesheet" href="./styles/index.css">
     <!--- Font Awesome Kit Script-->
     <script src="https://kit.fontawesome.com/60031b7202.js" crossorigin="anonymous"></script>
+    <!--- clock CSS-->
+    <link rel="stylesheet" href="./styles/clock.css">
 </head>
 
 <body>
 
 
-<div class="light-dark-toggle"></div>
-<button class="toggle"><img src=""></button>
+<div class="light-dark-toggle">
+    <button class="toggle"><i class="fa-solid fa-sun-bright"></i></button>
+    <script src="dark-mode.js"></script>
+</div>
 
-<div>class="footer"; </div>
+<div class="clock-container">
+    <div class="clock">
+      <div class="needle hour"></div>
+      <div class="needle minute"></div>
+      <div class="needle second"></div>
+      <div class="center-point"></div>
+    </div>
+
+    <div class="time"></div>
+    <div class="date"></div>
+    
+    <script src="clock.js"></script>
+</div>
+
+
 
 </body>
