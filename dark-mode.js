@@ -1,4 +1,8 @@
-const toggle = document.querySelector('.toggle')
+// Documentation: 
+// https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+// https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme#JavaScript
+
+const toggle = document.querySelector('light-dark-toggle')
 
 toggle.addEventListener('click', (e) => {
     const html = document.querySelector('html')
