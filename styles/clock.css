@@ -6,7 +6,7 @@
 }
 
 .clock {
-  position: absolute;
+  position: relative;
   right: -50px;
   top: 50px;
   #width: 50px;
