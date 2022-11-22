@@ -1,7 +1,17 @@
-// Documentation: 
-// https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
-// https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme#JavaScript
+// Navigation Animation
 
+const nav = document.querySelector('.nav')
+window.addEventListener('scroll', fixNav)
+
+function fixNav() {
+    if(window.scrollY > nav.offsetHeight + 150) {
+        nav.classList.add('active')
+    } else {
+        nav.classList.remove('active')
+    }
+}
+
+// Dark Mode Toggle
 const toggle = document.querySelector('light-dark-toggle')
 
 toggle.addEventListener('click', (e) => {
