@@ -1,6 +1,7 @@
 feed.xml is for publication feeds with RSS?
 did not put the about.css from static into mine
 posts should go into posts folder as a .md file
+also do a spotify integration https://developer.spotify.com/documentation/web-api/ so people can see my listening.
 
 ## Animations
 Also see the [embedded age calculator](https://www.michaelsyao.com/) at the bottom when inspecting element.
